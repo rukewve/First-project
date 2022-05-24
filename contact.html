@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN / SIGN UP</title>
+    <style>
+        * {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+.section {
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(images/guitar.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.navbar {
+  padding: 2% 7%;
+  justify-content: space-between;
+  align-items: center;
+  display: flexbox;
+}
+
+.navbar img {
+  width: 150px;
+  float: left;
+  margin-right: 20px;
+}
+
+.navbar {
+  flex: 1;
+  text-align: right;
+}
+
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  position: relative;
+  margin-right: 30px ;
+  margin-top: 16px;
+  text-align: center;
+}
+
+.navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-right: 35px;
+  align-items: center;
+  text-align: center;
+}
+
+.navbar ul li a:hover{
+  transition: 0.5s;
+  cursor: pointer;
+  color: #f44336; 
+  
+}
+
+.form{
+  background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
+  width: 350px;
+  height: 470px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 35%;
+  margin-top: 30px;
+  padding: 10px;
+}
+
+.form h1{
+  font-family: 'Times New Roman', Times, serif;
+  width: 240px;
+  height: 33px;
+ background-color: #f44336;
+ color: #fff;
+ border: none;
+ text-align: center;
+border-radius: 10px;
+margin-bottom: 40px;
+margin-top: 20px;
+margin-left: 51px;
+padding-top: 2px;
+
+}
+
+.form input{
+  width: 230px;
+  height: 40px;
+  background: transparent;
+  margin-left: 52px;
+  align-items: center;
+  text-align: center;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  color: white;
+  
+}
+
+.form .btn{
+  background: #f44336;
+  color: white;
+  width: 240px;
+  border-radius: 10px;
+  border: none ;
+  margin-top: 90px;
+  margin-left: 52px;
+  cursor: pointer;
+  text-align: center;
+  
+}
+.form .btn:hover{
+  color: #f44336;
+  background: white;
+  transition: 0.5s ease-in-out;
+}
+
+.form .pass{
+  margin-top: 20px;
+  
+}
+
+::placeholder{
+  color: white;
+}
+
+.form p{
+  font-size: 13px;
+  font-family: sans-serif;
+  color: #fff;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.form p a{
+  text-decoration: none;
+  color: red;
+}
+
+.form p a:hover{
+  color: #fff;
+  transition: 0.4s ease-in-out;
+}
+
+
+    </style>
+</head>
+<body>
+  <section class="section">
+    <div class="navbar">
+    
+        <img src="images/logo.png"  class="logo">
+    
+            <ul>
+                <li>
+                    <a href="index.html" class="home">HOME</a>
+                    <a href="" >ABOUT</a>
+                    <a href="" >COURSE</a>
+                    <a href="" >BLOG</a>
+                    <a href="contact.html" >LOGIN</a>
+                
+                </ul>
+            </ul>
+    
+        </div>
+        </nav>
+
+        <div class="form">
+          
+          <h1>LOGIN HERE</h1>
+          <input type="email" name="email" placeholder="Input Your Email" required>
+          <input type="text" name="password" placeholder="Input Your Password" class="pass" required>
+          <input type="button" value="LOGIN" class="btn">
+             <p>Don't have an account ?</p>
+             <p><a href="">Sign Up</a> Here</p>
+
+                  
+
+        </div>
+
+        </section>
+</body>
+</html>
